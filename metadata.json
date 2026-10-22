@@ -1,0 +1,6 @@
+{
+  "name": "Autohost Trivia",
+  "description": "An interactive, high-energy voice trivia game host powered by Gemini Live for audio-only and voice play.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
