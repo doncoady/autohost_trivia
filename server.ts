@@ -19,11 +19,6 @@ app.use(express.json());
 const apiKey = process.env.GEMINI_API_KEY || '';
 const ai = new GoogleGenAI({
   apiKey,
-  httpOptions: {
-    headers: {
-      'User-Agent': 'aistudio-build',
-    },
-  },
 });
 
 const toolsDeclarations: FunctionDeclaration[] = [
